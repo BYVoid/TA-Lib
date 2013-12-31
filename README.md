@@ -15,4 +15,6 @@ TA-Lib is also available as an easy to install Excel Add-Ins. [Try it for free](
 
 ## Build with Maven
 
+[![Build Status](https://travis-ci.org/BYVoid/TA-Lib.png?branch=travis)](https://travis-ci.org/BYVoid/TA-Lib)
+
 Have Maven installed, and run `mvn package`
