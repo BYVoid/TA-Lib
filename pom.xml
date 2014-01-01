@@ -4,7 +4,7 @@
 
     <groupId>com.tictactec</groupId>
     <artifactId>ta-lib</artifactId>
-    <version>0.4.1-SNAPSHOT</version>
+    <version>0.4.0</version>
     <packaging>jar</packaging>
 
     <name>TA-Lib</name>
@@ -23,7 +23,7 @@
         <connection>scm:git:git@github.com:BYVoid/TA-Lib.git</connection>
         <developerConnection>scm:git:git@github.com:BYVoid/TA-Lib.git</developerConnection>
         <url>git@github.com:BYVoid/TA-Lib.git</url>
-        <tag>HEAD</tag>
+        <tag>ta-lib-0.4.0</tag>
     </scm>
 
     <distributionManagement>
