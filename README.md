@@ -13,8 +13,41 @@ TA-Lib is available under a BSD License allowing it to be integrated in your own
 ## Commercial Application
 TA-Lib is also available as an easy to install Excel Add-Ins. [Try it for free](http://ta-lib.org/hdr_dw.html)!
 
-## Build with Maven
+## Use with Maven
 
 [![Build Status](https://travis-ci.org/BYVoid/TA-Lib.png?branch=travis)](https://travis-ci.org/BYVoid/TA-Lib)
 
-Have Maven installed, and run `mvn package`
+```
+<dependency>
+  <groupId>com.tictactec</groupId>
+  <artifactId>ta-lib</artifactId>
+  <version>0.4.0</version>
+</dependency>
+<dependency>
+  <groupId>com.tictactec</groupId>
+  <artifactId>ta-lib</artifactId>
+  <version>0.4.0</version>
+  <classifier>javadoc</classifier>
+</dependency>
+<dependency>
+  <groupId>com.tictactec</groupId>
+  <artifactId>ta-lib</artifactId>
+  <version>0.4.0</version>
+  <classifier>sources</classifier>
+</dependency>
+```
+
+You can also have Maven installed, and run `mvn package` in this respository.
+
+## Use with Scala sbt
+
+Add below to your `build.sbt`:
+
+```
+libraryDependencies += "com.tictactec" % "ta-lib" % "0.4.0"
+```
+
+## Contributors
+
+* Original author: Mario Fortier
+* Maven packager: Carbo Kuo
