@@ -17,7 +17,7 @@ TA-Lib is also available as an easy to install Excel Add-Ins. [Try it for free](
 
 [![Build Status](https://travis-ci.org/BYVoid/TA-Lib.png?branch=travis)](https://travis-ci.org/BYVoid/TA-Lib)
 
-```
+```xml
 <dependency>
   <groupId>com.tictactec</groupId>
   <artifactId>ta-lib</artifactId>
@@ -43,7 +43,7 @@ You can also have Maven installed, and run `mvn package` in this respository.
 
 Add below to your `build.sbt`:
 
-```
+```scala
 libraryDependencies += "com.tictactec" % "ta-lib" % "0.4.0"
 ```
 
